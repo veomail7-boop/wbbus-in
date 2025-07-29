@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WBBus.iN :: See Bus Time Table, Routes, Stopages. Have a Comfortable & Safe Bus Journey....</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Top Bar -->
+    <div class="header-top">
+        <div class="container">
+            <div class="header-top-content">
+                <div class="contact-info">
+                    <span>Email : contact@wbbus.in</span>
+                </div>
+                <div class="social-links">
+                    <span>Follow Us :</span>
+                    <a href="https://www.facebook.com/profile.php?id=61555228523409" target="_blank">Facebook</a>
+                    <a href="http://t.me/wbbus" target="_blank">Telegram</a>
+                    <a href="https://whatsapp.com/channel/0029VaMzF271HspvaWVIey1O" target="_blank">WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation -->
+    <header class="main-header">
+        <div class="container">
+            <nav class="main-nav">
+                <div class="logo">
+                    <a href="index.html">WBBUS.IN</a>
+                </div>
+                <div class="nav-menu">
+                    <a href="index.html" class="nav-link active">Home</a>
+                    <a href="government.html" class="nav-link">Government</a>
+                    <a href="private.html" class="nav-link">Private</a>
+                    <a href="about.html" class="nav-link">About Us</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </div>
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section with Search -->
+    <section class="hero-section">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">West Bengal Bus Routes: Information on Stopages and Schedules</h1>
+                <form id="search-form" class="search-form">
+                    <div class="search-inputs">
+                        <select class="search-select">
+                            <option value="route">Search by Route</option>
+                            <option value="bus">Bus Name</option>
+                            <option value="stopage">Stopage Name</option>
+                        </select>
+                        <input type="text" id="search-input" class="search-input" placeholder="Start..">
+                        <input type="text" class="search-input destination" placeholder="Destination..">
+                        <button type="submit" class="search-btn">Submit</button>
+                    </div>
+                    <div class="error-message" id="error-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Us</h2>
+                <p class="section-subtitle">We are here to reach your destination in shortest time....</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://wbbus.in/storage/uploads/bus_image/1753202344-WB870588.webp" alt="WBBus.in About Us image">
+                </div>
+                <div class="about-text">
+                    <p>WBBus.iN is your one-stop destination for all bus-related information in West Bengal. Whether you're a local commuter or a traveler exploring the diverse landscapes of this vibrant state, our platform aims to simplify your journey by providing comprehensive and up-to-date information about bus routes, schedules and more.</p>
+                    <a href="about.html" class="read-more-btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Buses Section -->
+    <section class="latest-buses-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Latest Buses</h2>
+                <p class="section-subtitle">Here is the some latest added buses...</p>
+            </div>
+            <div class="bus-grid">
+                <a href="bus-detail.html" class="bus-card">
+                    <div class="bus-image">
+                        <img src="https://wbbus.in/storage/uploads/bus_image/1753813332-WB29E6062.webp" alt="BISWA BINA">
+                    </div>
+                    <div class="bus-info">
+                        <h3 class="bus-name">BISWA BINA</h3>
+                        <p class="bus-route">Kolkata-Garhbeta</p>
+                    </div>
+                </a>
+
+                <a href="bus-detail.html" class="bus-card">
+                    <div class="bus-image">
+                        <img src="https://wbbus.in/storage/uploads/bus_image/1753461628-WB55B6775.webp" alt="HILLTOP SUPER">
+                    </div>
+                    <div class="bus-info">
+                        <h3 class="bus-name">HILLTOP SUPER</h3>
+                        <p class="bus-route">Purulia-Baghmundi</p>
+                    </div>
+                </a>
+
+                <a href="bus-detail.html" class="bus-card">
+                    <div class="bus-image">
+                        <img src="https://wbbus.in/storage/uploads/bus_image/1753460325-WB55B6775.webp" alt="HILLTOP SUPER">
+                    </div>
+                    <div class="bus-info">
+                        <h3 class="bus-name">HILLTOP SUPER</h3>
+                        <p class="bus-route">Ajodhya Hills-Purulia</p>
+                    </div>
+                </a>
+
+                <a href="bus-detail.html" class="bus-card">
+                    <div class="bus-image">
+                        <img src="https://wbbus.in/storage/uploads/bus_image/1753378704-WB494546.webp" alt="RUPKATHA">
+                    </div>
+                    <div class="bus-info">
+                        <h3 class="bus-name">RUPKATHA</h3>
+                        <p class="bus-route">Rohini-Kolkata (Esplaned)</p>
+                    </div>
+                </a>
+
+                <a href="bus-detail.html" class="bus-card">
+                    <div class="bus-image">
+                        <img src="https://wbbus.in/storage/uploads/bus_image/1753288372-WB41K2045.webp" alt="RAJLAXMI">
+                    </div>
+                    <div class="bus-info">
+                        <h3 class="bus-name">RAJLAXMI</h3>
+                        <p class="bus-route">Bardhaman-Bishnupur</p>
+                    </div>
+                </a>
+
+                <a href="bus-detail.html" class="bus-card">
+                    <div class="bus-image">
+                        <img src="https://wbbus.in/storage/uploads/bus_image/1753206010-WB55B6653.webp" alt="BARTAMAN">
+                    </div>
+                    <div class="bus-info">
+                        <h3 class="bus-name">BARTAMAN</h3>
+                        <p class="bus-route">Arsha-Bandwan</p>
+                    </div>
+                </a>
+
+                <a href="bus-detail.html" class="bus-card">
+                    <div class="bus-image">
+                        <img src="https://wbbus.in/storage/uploads/bus_image/1753202344-WB870588.webp" alt="SREEDHAR">
+                    </div>
+                    <div class="bus-info">
+                        <h3 class="bus-name">SREEDHAR</h3>
+                        <p class="bus-route">Moynapur-Kolkata (Esplaned)</p>
+                    </div>
+                </a>
+
+                <a href="bus-detail.html" class="bus-card">
+                    <div class="bus-image">
+                        <img src="https://wbbus.in/storage/uploads/bus_image/1752774795-WB15A0564.webp" alt="APANJAN">
+                    </div>
+                    <div class="bus-info">
+                        <h3 class="bus-name">APANJAN</h3>
+                        <p class="bus-route">Tarkeshwar-Fulkusma</p>
+                    </div>
+                </a>
+            </div>
+            <div class="see-more-container">
+                <a href="allbus.html" class="see-more-btn">See More Bus</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>WBBUS.IN</h3>
+                    <p>WBBUS.IN is a website to serve you the 'Time Table' and 'Route Informations' of Privet and Goverment buses running in West Bengal territory</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Quick Menu</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="government.html">Goverment Bus</a></li>
+                        <li><a href="private.html">Private Bus</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Social Links</h4>
+                    <ul>
+                        <li><a href="https://www.facebook.com/profile.php?id=61555228523409" target="_blank">Facebook</a></li>
+                        <li><a href="http://t.me/wbbus" target="_blank">Telegram</a></li>
+                        <li><a href="https://whatsapp.com/channel/0029VaMzF271HspvaWVIey1O" target="_blank">Whatsapp</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Designed & Developed By SS Digital Ocean Copyright © 2025 WBBUS.IN</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
